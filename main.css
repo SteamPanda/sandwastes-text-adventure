@@ -1,0 +1,49 @@
+* {
+  border: none;
+  font-family: Lato;
+}
+*:focus {
+  outline: none;
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+button {
+  background: none;
+  heigth: 20px;
+  width: 10px;
+}
+.container {
+  line-height: 18px;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+}
+#text {
+  
+}
+.input_cont {
+  height: 20px;
+  margin-top: 200px;
+  width: 100%;
+}
+label {
+  font-size: 22px;
+}
+#text_input {
+  font-size: 13px;
+  border-bottom: 1px solid black;
+  width: 350px;
+  height: 20px;
+  padding-left: 10px;
+}
+.input-prompt {
+  width: 20px;
+}
