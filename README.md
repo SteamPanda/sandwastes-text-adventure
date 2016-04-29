@@ -1,2 +1,2 @@
-# sandwastes
+# Sandwastes
 A text adventure
