@@ -1,7 +1,6 @@
 The Sandwastes 
 ==============
 A Text Adventure
-By Zach Reich
 ~~~
 You start in the middle of a vast desert (hence the name). You see mountains in the North, a river to the East, a shack to the South, and a cactus to the West.
 
