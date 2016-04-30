@@ -1,5 +1,4 @@
-# Sandwastes 
-###A text adventure
+# Sandwastes: A Text Adventure
 
 ***
 
