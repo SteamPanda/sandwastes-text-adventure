@@ -7,8 +7,7 @@
     <title>Sandwastes: A Text Adventure</title>
   </head>
   <body>
-    <script src="script.js">
-    </script>
+    <script type="text/javascript" src="script.js"></script>
     <div class="container">
       <div class="text-dis_cont">
         <span class="header-text">
@@ -30,11 +29,10 @@
         </span>
         <br>
         <br>
-        <span id="text">hello</span>
+        <span id="text"></span>
       </div>
       <div class="input_cont">
-        <label for="text_input" class="input-prompt">></lable><input type="text" id="text_input" placeholder="type a command" onkeypress="return searchKeyPress(event);"><button type="button" id="enter" onclick="beginning()"></button>
-      </div>
+        <span class="input-prompt">></span><input type="text" id="text_input" onkeypress="return searchKeyPress(event);"><button type="submit" id="enter" onclick="doThis()"></button>
       </div>
     </div>
   </body>
