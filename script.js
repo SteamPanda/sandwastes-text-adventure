@@ -1,8 +1,7 @@
-function doSomething() {
-  var x = document.getElementById("text_input").value;
-  document.getElementById("text").innerHTML = x;
-  if (x = "test") {
-    document.getElementById("test_input").style.background = "red";
+function doThis() {
+  if (document.getElementById("text_input").value == "north") {
+    document.getElementById("text").innerHTML = "The mountains are miles away; you'll never make it there on foot. To the West you see something sticking out of the ground...";
+    document.getElementById("text").style.opacity = "1";
   };
 };
 
