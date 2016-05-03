@@ -8,9 +8,69 @@
 ::-webkit-scrollbar {
   display: none;
 }
+::-mox-selection {
+  background: none;
+}
+::selection{
+  background: none;
+}
 html {
   padding: 0;
   margin: 0;
+}
+body {
+  cursor: default;
+}
+.header-text {
+  cursor: default;
+}
+#line1 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0s;
+}
+#line2 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.1s;
+}
+#line3 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.2s;
+}
+#line4 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.3s;
+}
+#line5 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.4s;
+}
+#line6 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.5s;
+}
+#line7 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.6s;
+}
+#line8 {
+  cursor: default;
+  opacity: 0;
+  transition: 2s;
+  transition-delay: 0.7s;
 }
 body {
   padding: 0;
@@ -31,21 +91,31 @@ button {
 }
 .text-dis_cont {
   overflow-y: scroll;
-  height: 400px;
+  height: 300px;
 }
 #text {
   opacity: 0;
-  -webkit-transition: 1s;
+  transition: 0.5s;
 }
-.input_cont {
+#input_cont {
+  opacity: 0;
+  transition-delay: 0s;
+  transition: 5s;
   position: absolute;
   height: 25px;
   width: 400px;
 }
 .input-prompt {
+  cursor: default;
+  font-weight: 300;
   -webkit-animation-name: label;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.0s;
   -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 5s;
+  animation-name: label;
+  animation-duration: 1.0s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
   font-size: 22px;
 }
 #text_input {
@@ -64,3 +134,12 @@ button {
     opacity: 0;
   }
 }
+@keyframes label {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
