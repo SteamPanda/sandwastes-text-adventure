@@ -6,33 +6,35 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,900italic,900,700italic,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <title>Sandwastes: A Text Adventure</title>
   </head>
-  <body>
+  <body onload="load()">
     <script type="text/javascript" src="script.js"></script>
     <div class="container">
       <div class="text-dis_cont">
         <span class="header-text">
-          You are in the desert.
+          <span id="line1">You are in the desert.</span>
           <br>
-          You see mountains in the North.
+          <span id="line2">You see mountains in the North.</span>
           <br>
-          You see a river to the East.
+          <span id="line3">You see a river to the East.</span>
           <br>
-          You see a shack to the South.
+          <span id="line4">You see a shack to the South.</span>
           <br>
-          You see a cactus to the West.
+          <span id="line5">You see a cactus to the West.</span>
           <br>
-          Make it to the mountains.
+          <span id="line6">Make it to the mountains.</span>
           <br>
-          Get out of the desert.
+          <span id="line7">Get out of the desert.</span>
           <br>
-          Go.
+          <span id="line8">Go.</span>
         </span>
         <br>
         <br>
-        <span id="text"></span>
+        <div id="text_cont">
+          <span id="text"></span>
+        </div>
       </div>
-      <div class="input_cont">
-        <span class="input-prompt">></span><input type="text" id="text_input" onkeypress="return searchKeyPress(event);"><button type="submit" id="enter" onclick="doThis()"></button>
+      <div id="input_cont">
+        <span class="input-prompt">></span><input type="text" id="text_input" onkeypress="return searchKeyPress(event);" autofocus><button type="submit" id="enter" onclick="start()"></button>
       </div>
     </div>
   </body>
